@@ -1,0 +1,305 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.header-top{
+    height: 40px;
+
+}
+.left-side{
+    margin-left: -52px;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    margin-right: 20px;
+    margin-top: 10px;
+
+
+}
+ul li i{
+    color: white;
+}
+ul li  span{
+    color: white;
+    margin-left: 10px;
+}
+.right-side ul li{
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 767px) {
+    .header-top {
+        display: none;
+    }
+}
+
+
+.header-navbar{
+    padding: 0px;
+}
+
+form .search i {
+    font-size: 25px;
+
+}
+
+/* section start */
+section{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/header1.jpg) no-repeat center top;
+    background-attachment: fixed;
+    height: 500px;
+    
+    
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Permanent Marker', cursive;
+   
+    
+}
+p {
+    color: black;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+section .title {
+    margin-top: 200px;
+    color: white;
+}
+section .location-search input{
+    
+    height: 50px;
+   
+}
+
+
+@media screen and (max-width: 767px) {
+    .none  {
+        display: none;
+        
+    }
+    .location-search{
+         width: 100%;
+    }
+}
+
+/*About us*/
+
+.animation-div1{
+    height:200px;
+    padding-top: 120px;
+    position: relative;
+    animation-name: example1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+.animation-div1 p{
+  
+   transform: rotate(270deg);
+}
+
+@keyframes example1 {
+    0%   {top:40px;}
+    50%  {top:140px;}
+    100% {top:40px;}
+
+    
+}
+.about .item #truck{
+    font-size: 70px;
+    color: black;
+    transform: rotatey(180deg);
+}
+.about h1{
+   font-size: 25px;
+   
+   
+}
+.about .item p{
+    font-size: 20px;
+    
+}
+.about i{
+    font-size: 70px;
+    color: black;
+    
+}
+@media screen and (max-width: 767px) {
+    .animation-div1  {
+        display: none;
+    }
+    
+
+}
+@media screen and (max-width: 991px) {
+    .about .item p {
+        text-align: justify;
+    }
+    .animation-div1{
+        height:200px;
+        padding-top: 120px;
+        position: relative;
+        animation-name: example1;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+
+    }
+    .animation-div1 p{
+
+        transform: rotate(270deg);
+    }
+
+    @keyframes example1 {
+        0%   {top:50px;}
+        50%  {top:240px;}
+        100% {top:50px;}
+
+
+    }
+
+}
+
+/*About second part*/
+.aboutus-SecondPart p{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}
+
+.aboutus-SecondPart .relative{
+   position: relative;
+   
+}
+
+.aboutus-SecondPart .relative img{
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px black;
+}
+
+
+
+.aboutus-SecondPart .absoluite1{
+    position: absolute;
+    left: -50px; 
+    top: -10px;
+    transform: rotate(330deg);
+}
+.aboutus-SecondPart .absoluite2{
+    position: absolute;
+    left: -50px; 
+    top: 330px;
+    transform: rotate(330deg);
+}
+
+
+
+
+
+
+
+
+/*Menu Section */
+
+.menu .card{
+    box-shadow: 1px 1px 10px thistle;
+}
+
+
+@media screen and (max-width: 767px) {
+    .aboutus-SecondPart  {
+       margin-top: 500px;
+      
+    }
+}
+
+
+@media screen and (max-width: 991px){
+    .menu{
+       margin-top: 450px;
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .menu .card{
+       margin-top: 50px;
+    }
+}
+
+
+
+/*Explore Section */
+.explore {
+    background:url(../img/explore.jpg) no-repeat center;
+    background-attachment: fixed;
+    height: 600px;
+    background-size: 100% 100%;
+    
+    
+}
+
+.explore .explore-header{
+    margin-top: 50px;
+
+    
+}
+
+.explore span{
+    font-family: fantasy;
+    font-size: 40px;
+}
+.reservation i{
+    font-size: 20px;
+    color: #454d55;
+}
+
+@media screen and (max-width: 767px){
+    .reservation .input-class{
+        margin-top: 40px;
+    }
+}
+
+/* team*/
+
+@media screen and (max-width: 991px){
+    .team{
+       
+    }
+}
+@media screen and (max-width: 767px){
+    .team{
+        
+    }
+    
+}
+
+
+.testimonial i{
+    font-size: 15px;
+}
+.testimonial span{
+   
+    margin-left: 5px;
+    font-style: italic ;
+    font-size: 15px;
+    line-height: 2;
+}
+@media screen and (max-width: 991px){
+    .testimonial {
+        margin-top: 0px;
+    }
+    
+}
+
+
+footer{
+    height: 500px;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/header.jpg) no-repeat center top;
+    height: 500px;
+}
